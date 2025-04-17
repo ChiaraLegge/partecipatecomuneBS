@@ -55,7 +55,7 @@ def calcola_DI_index(df):
 
 # --- Creazione dell'app Dash ---
 app = Dash(__name__)
-
+server= app.server
 app.layout = html.Div([
     dcc.Tabs(id="tabs", value="tab-overview", children=[
         # Tab Panoramica
