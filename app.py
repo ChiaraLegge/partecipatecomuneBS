@@ -140,7 +140,7 @@ app = Dash(__name__)
 server = app.server
 
 app.layout = html.Div([
-    dcc.Tabs(id="tabs", value="Introduzione", children=[
+    dcc.Tabs(id="tabs", value="tab-introduzione", children=[
         # Tab Panoramica
         # ---------- TAB INTRODUZIONE (sostituisci tutta la tua versione con questa) ----------
 dcc.Tab(
