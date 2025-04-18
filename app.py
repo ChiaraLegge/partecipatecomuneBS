@@ -137,6 +137,7 @@ def crea_grafici_indici(risultati):
 
 # --- Creazione dell'app Dash ---
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dcc.Tabs(id="tabs", value="Introduzione", children=[
